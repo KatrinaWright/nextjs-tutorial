@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <h1>New Project Huzzah</h1>
-      <Link href="/users">Users</Link> {/* #Client side navigation, use next.js Link va a */}
+      <Link href="/users" target="_blank">Users</Link> {/* #Client side navigation, use next.js Link va a */}
       <ProductCard></ProductCard>
     </main>
   )

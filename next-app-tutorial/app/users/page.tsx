@@ -17,7 +17,7 @@ const UsersPage = async () => {
   return (
     <div>
         <h1>Users</h1>
-        <p> {new Date().toLocaleDateString()}</p>
+        <p id='element-in-new-window'> {new Date().toLocaleDateString()}</p>
         <table className='table table-bordered'>
             <thead>
                 <tr>
